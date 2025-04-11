@@ -1,0 +1,21 @@
+{
+  "name": "gestion-stock",
+  "version": "1.0.0",
+  "description": "Application web de gestion de stock de tissus",
+  "main": "index.html",
+  "scripts": {
+    "start": "json-server --watch db/db.json",
+    "dev": "json-server --watch db/db.json"
+  },
+  "keywords": [
+    "stock",
+    "inventory",
+    "management",
+    "fabric"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+} 
